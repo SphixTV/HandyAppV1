@@ -4272,11 +4272,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1849282157}
     m_Modifications:
-    - target: {fileID: 8135886326569738825, guid: 56fae09712773584fb63896d473a98ee,
-        type: 3}
-      propertyPath: m_Name
-      value: Dynamic Joystick
-      objectReference: {fileID: 0}
     - target: {fileID: 8135886326569738822, guid: 56fae09712773584fb63896d473a98ee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4381,6 +4376,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8135886326569738825, guid: 56fae09712773584fb63896d473a98ee,
+        type: 3}
+      propertyPath: m_Name
+      value: Dynamic Joystick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56fae09712773584fb63896d473a98ee, type: 3}
@@ -7331,7 +7331,7 @@ MonoBehaviour:
   Spell: 1
   Speed: 500
   shootPoint: {fileID: 1884274423}
-  TimeBetweenActions: 0.2
+  TimeBetweenActions: 1
   manacost: 30
 --- !u!1 &6395382469577723894
 GameObject:
