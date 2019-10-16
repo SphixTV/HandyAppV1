@@ -17,6 +17,10 @@ public class HealersHouse : MonoBehaviour
                 
                 button.ResetBool();
                 ReviveButton();
+            }else if (Input.GetKeyDown(KeyCode.E))
+            {
+                button.ResetBool();
+                ReviveButton();
             }
         }
     }

@@ -7290,7 +7290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbca3a1995a3e944ab460eab6222fa9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 8
   jumpSpeed: 15
   gravity: 40
   jumpCount: 0
@@ -7807,7 +7807,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5006512735358546028}
   - component: {fileID: 8296172668631450240}
-  - component: {fileID: 8296172668631450242}
   - component: {fileID: 8296172668631450241}
   m_Layer: 0
   m_Name: healershouse
@@ -7843,25 +7842,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 5, z: 5}
   m_Center: {x: 3, y: -0.5, z: 0}
---- !u!114 &8296172668631450242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8296172668631450239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a17d3b8163377241a54598ef9d7d23f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textDisplay: {fileID: 0}
-  sentences:
-  - Zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-  - Guten morgen was wilst du von mir
-  - Eine Portion Heilung also
-  - Das Geht Einfach
-  typingSpeed: 0.02
 --- !u!4 &8833720300359948088
 Transform:
   m_ObjectHideFlags: 0
