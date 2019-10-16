@@ -91,9 +91,13 @@ public class Moving : MonoBehaviour
 
 
         }
-        else
+        else if (Horizontal < 0)
         {
             transform.eulerAngles = new Vector3(0, -90, 0);
+        }
+        else
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0);
         }
         if(Horizontal < 0)
         {

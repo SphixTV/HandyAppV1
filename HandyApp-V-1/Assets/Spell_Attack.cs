@@ -18,14 +18,7 @@ public class Spell_Attack : MonoBehaviour
     {
         mana = GetComponent<Mana>();
     }
-    private void Update()
-    {
-        if (Input.GetMouseButtonDown(1) && time)
-        {
-            attack();
-
-        }
-    }
+    
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(TimeBetweenActions);
