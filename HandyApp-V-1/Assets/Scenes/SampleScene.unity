@@ -7332,7 +7332,7 @@ MonoBehaviour:
   Speed: 500
   shootPoint: {fileID: 1884274423}
   TimeBetweenActions: 0.2
-  manacost: 10
+  manacost: 30
 --- !u!1 &6395382469577723894
 GameObject:
   m_ObjectHideFlags: 0
