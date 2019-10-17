@@ -5,7 +5,7 @@ using UnityEngine;
 public class BackgroundManeger : MonoBehaviour
 {
     private static BackgroundManeger instance;
-    public float Coins;
+   
     void Awake()
     {
         if (instance == null)
