@@ -21,6 +21,7 @@ public class DataManager : MonoBehaviour
     private void WriteToFile(string fileName, string json)
     {
         string path = GetFilePath(fileName);
+        Debug.Log(path);
         FileStream fileStream = new FileStream(path, FileMode.Create);
 
         using (StreamWriter writer = new StreamWriter(fileStream))
