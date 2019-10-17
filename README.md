@@ -2,4 +2,4 @@
 HandyAppV1
 
 
-Come to google [google](https://google.com/).
+Come to [google](https://google.com/).
