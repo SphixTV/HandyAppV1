@@ -9,6 +9,7 @@ public class StartManeger : MonoBehaviour
     public GameObject OptionsPanel;
     public GameObject SliderPanel;
     public GameObject normalpanel;
+    public GameObject playeroptions;
     public Slider slider;
     public string scene;
 
@@ -37,30 +38,41 @@ public class StartManeger : MonoBehaviour
     }
     public void Play()
     {
-        
 
-            normalpanel.SetActive(false);
-            OptionsPanel.SetActive(false);
+
+        playeroptions.SetActive(false);
+        normalpanel.SetActive(false);
+        OptionsPanel.SetActive(false);
             SliderPanel.SetActive(true);
             LoadLevel();
         
     }
     public void Options()
     {
-        
 
-            normalpanel.SetActive(false);
-            SliderPanel.SetActive(false);
-            OptionsPanel.SetActive(true);
-        
-        
+        playeroptions.SetActive(false);
+        normalpanel.SetActive(false);
+        SliderPanel.SetActive(false);
+        OptionsPanel.SetActive(true);
+
+
+    }
+    public void PlayerOptions()
+    {
+
+        playeroptions.SetActive(true);
+        normalpanel.SetActive(false);
+        SliderPanel.SetActive(false);
+        OptionsPanel.SetActive(true);
+
+
     }
     public void Back()
     {
 
-      
 
-            normalpanel.SetActive(true);
+        playeroptions.SetActive(false);
+        normalpanel.SetActive(true);
             SliderPanel.SetActive(false);
             OptionsPanel.SetActive(false);
         
