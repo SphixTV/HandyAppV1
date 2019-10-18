@@ -6184,7 +6184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6180e89de01701244bbfc1e6c1123c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joystickmode: 1
+  joystickmode: 0
   doublejump: 1
   walljump: 1
   PauseMenu: {fileID: 1998356063}
