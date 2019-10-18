@@ -13,7 +13,7 @@ public class UI : MonoBehaviour
 
     private void Start()
     {
-        dataManager.Load();
+        dataManager.Load("player.json");
         playerName.text = dataManager.data.name;
         coins.text = dataManager.data.coins.ToString();
     }
@@ -34,6 +34,12 @@ public class UI : MonoBehaviour
     }
     public void ClickSave()
     {
-        dataManager.Save();
+        dataManager.Save(playerName.text + "."+playerName.text);
+    }
+    public void ClickLoad()
+    {
+        dataManager.Load(playerName.text +"."+ playerName.text);
+        coins.text = dataManager.data.coins.ToString();
+        playerName.text = dataManager.data.name;
     }
 }

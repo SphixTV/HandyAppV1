@@ -6,13 +6,13 @@ using UnityEngine;
 public class DataManager : MonoBehaviour
 {
     public PlayerData data;
-    public string file = "player.txt";
-    public void Save()
+    
+    public void Save(string file)
     {
         string json = JsonUtility.ToJson(data);
         WriteToFile(file, json);
     }
-    public void Load()
+    public void Load(string file)
     {
         data = new PlayerData();
         string json = ReadFromFile(file);
