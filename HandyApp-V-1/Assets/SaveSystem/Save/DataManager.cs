@@ -52,5 +52,11 @@ public class DataManager : MonoBehaviour
     {
         return Application.persistentDataPath + "/" + fileName;
     }
+    void OnApplicationQuit()
+    {
+        Save("player.json");
+
+
+    }
 }
 

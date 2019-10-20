@@ -27,12 +27,7 @@ public class Coins : MonoBehaviour
         dataManager.data.coins -= coin;
         coins.text = dataManager.data.coins.ToString();
     }
-    void OnApplicationQuit()
-    {
-        dataManager.Save("player.json");
-
-
-    }
+    
 
 
 
