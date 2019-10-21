@@ -17,6 +17,7 @@ public class Coins : MonoBehaviour
 
         coins.text = dataManager.data.coins.ToString();
     }
+
     public void CoinPlus(int coin)
     {
         dataManager.data.coins += coin;

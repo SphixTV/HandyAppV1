@@ -23,6 +23,7 @@ public class Moving : MonoBehaviour
     private Animator Animator;
     [SerializeField] private bool hasVertical;
     public bool NoMove;
+    float rotation;
     private void Start()
     {
         
@@ -88,16 +89,17 @@ public class Moving : MonoBehaviour
         if (Horizontal > 0)
         {
             transform.eulerAngles = new Vector3(0, 90, 0); // Normal
-
+            rotation = 90;
 
         }
         else if (Horizontal < 0)
         {
             transform.eulerAngles = new Vector3(0, -90, 0);
+            rotation = -90;
         }
         else
         {
-            transform.eulerAngles = new Vector3(0, 180, 0);
+            transform.eulerAngles = new Vector3(0, rotation, 0);
         }
         if(Horizontal < 0)
         {
