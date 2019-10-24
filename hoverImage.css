@@ -1,36 +1,4 @@
-#main {
-    width: 800px;
-    height: 475px;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-}
 
-#topMenu {
-    height: 50px;
-    text-align: center;
-    font-family: sans-serif;
-    letter-spacing: 0.4pt;
-}
-
-#topMenuInner {
-    display: block;
-    color: lightgray;
-}
-
-#topMenuInner a:hover, #topMenuInner a {
-	color: lightgray;
-}
-
-#logo {
-    height: 210px;
-    background-image: url("../img/skate702.png");
-    background-size: cover;
-	background-position-y: -30px;
-}
 
 .linkInfo {
     text-align: center;
