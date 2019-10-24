@@ -1,54 +1,165 @@
-#linkInfoYT  {
-  display: none;
+#main {
+    width: 800px;
+    height: 475px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
 
+#topMenu {
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 0.4pt;
+}
 
+#topMenuInner {
+    display: block;
+    color: lightgray;
+}
+
+#topMenuInner a:hover, #topMenuInner a {
+	color: lightgray;
+}
+
+#logo {
+    height: 210px;
+    background-image: url("../img/skate702.png");
+    background-size: cover;
+	background-position-y: -30px;
+}
+
+.linkInfo {
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 0.4pt;
+	display: none;
+    padding-top: 20px;
+    color: gray;
+}
+
+#linkList {
+    height: 125px;
+    text-align: center;
+}
+
+.linkButton, .linkButton a {
+    height: 125px;
+    width: 125px;
+    display: inline-block;
+    vertical-align: top;
+    color: dimgray;
+}
+
+.linkButton div {
+    line-height: 125px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+}
+
+#blindInfo {
+	color: #f6f6f6;
+	display: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#linkYouTube a:hover, #linkInfoYouTube b {
+	color: #FF0000;
+}
+
+#linkYouTube:hover ~ #linkInfoYouTube {
+	display:block;
+}
+
+#linkTwitch a:hover, #linkInfoTwitch b {
+	color: #6441A4 ;
+}
+
+#linkTwitch:hover ~ #linkInfoTwitch {
+	display:block;
+}
+
+#linkTwitter a:hover, #linkInfoTwitter b {
+	color: #1da1f2;
+}
+
+#linkTwitter:hover ~ #linkInfoTwitter {
+	display:block;
+}
+
+#linkInstagram a:hover, #linkInfoInstagram b {
+	color: #f77737;
 }
 
 
-
-#linkYT :hover + #linkInfoYT{
-  display: block;
-  color: #FF0000;
-
-
+#linkInstagram:hover ~ #linkInfoInstagram {
+	display:block;
 }
 
-
-#linkInfoTW  {
-  display: none;
-
+#linkSebinside a:hover, #linkInfoSebinside b {
+	color: #405de6;
 }
 
-#linkTW :hover + #linkInfoTW{
-  display: block;
-  color: #662888;
+#linkSebinside:hover ~ #linkInfoSebinside {
+	display:block;
 }
 
-#linkInfoTS  {
-  display: none;
-
+#linkGear a:hover, #linkInfoGear b {
+	color: #10c694;
 }
 
-#linkTS :hover + #linkInfoTS{
-  display: block;
-  color: #0532ab;
+#linkGear:hover ~ #linkInfoGear {
+	display:block;
 }
 
-#linkInfoMC  {
-  display: none;
-
+#impressum {
+    width: 1200px;
+    height: 900px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+	text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 0.4pt;
+    color: gray;
 }
-
-#linkMC :hover + #linkInfoMC{
-  display: block;
-  color: #224800;
+div.p1 {
+   width:100px; /*width of your image*/
+   height:100px; /*height of your image*/
+   background-image:url('Pictures/2.png');
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
 }
-#linkInfoGO  {
-  display: none;
-
+div.p2 {
+   width:100px; /*width of your image*/
+   height:100px; /*height of your image*/
+   background-image:url('Pictures/7.png');
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
 }
-
-#linkGO :hover + #linkInfoMC{
-  display: block;
-  color: #224800;
+div.p3 {
+   width:100px; /*width of your image*/
+   height:100px; /*height of your image*/
+   background-image:url('Pictures/9.png');
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+}
+div.p4 {
+   width:100px; /*width of your image*/
+   height:100px; /*height of your image*/
+   background-image:url('Pictures/112.png');
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
 }
