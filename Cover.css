@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image:linear-gradient(to top, #09121f 0%, #1f1f1f 18%);
+  background-image:#1f1f1f;
 }
 body {
   color: #fff;
@@ -116,6 +116,7 @@ body {
   padding: 10px 20px;
   font-weight: bold;
 }
+
 
 /*
  * Affix and center

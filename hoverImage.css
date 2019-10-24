@@ -1,0 +1,54 @@
+#linkInfoYT  {
+  display: none;
+
+
+}
+
+
+
+#linkYT :hover + #linkInfoYT{
+  display: block;
+  color: #FF0000;
+
+
+}
+
+
+#linkInfoTW  {
+  display: none;
+
+}
+
+#linkTW :hover + #linkInfoTW{
+  display: block;
+  color: #662888;
+}
+
+#linkInfoTS  {
+  display: none;
+
+}
+
+#linkTS :hover + #linkInfoTS{
+  display: block;
+  color: #0532ab;
+}
+
+#linkInfoMC  {
+  display: none;
+
+}
+
+#linkMC :hover + #linkInfoMC{
+  display: block;
+  color: #224800;
+}
+#linkInfoGO  {
+  display: none;
+
+}
+
+#linkGO :hover + #linkInfoMC{
+  display: block;
+  color: #224800;
+}
