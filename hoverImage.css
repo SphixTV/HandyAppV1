@@ -10,8 +10,11 @@
 }
 
 #linkList {
-    height: 125px;
+    height: 5000px;
     text-align: center;
+    position:relative;
+  
+
 }
 
 .linkButton, .linkButton a {
@@ -29,7 +32,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f6f6f6;
+    
 }
 
 #blindInfo {
@@ -107,27 +110,27 @@ div.p1 {
    width:100px; /*width of your image*/
    height:100px; /*height of your image*/
    background-image:url('Pictures/2.png');
-   margin:0; /* If you want no margin */
+   margin:0 auto; /* If you want no margin */
    padding:0; /*if your want to padding */
 }
 div.p2 {
    width:100px; /*width of your image*/
    height:100px; /*height of your image*/
    background-image:url('Pictures/7.png');
-   margin:0; /* If you want no margin */
+   margin:0 auto; /* If you want no margin */
    padding:0; /*if your want to padding */
 }
 div.p3 {
    width:100px; /*width of your image*/
    height:100px; /*height of your image*/
    background-image:url('Pictures/9.png');
-   margin:0; /* If you want no margin */
+   margin:0 auto; /* If you want no margin */
    padding:0; /*if your want to padding */
 }
 div.p4 {
    width:100px; /*width of your image*/
    height:100px; /*height of your image*/
    background-image:url('Pictures/112.png');
-   margin:0; /* If you want no margin */
+   margin:0 auto; /* If you want no margin */
    padding:0; /*if your want to padding */
 }
